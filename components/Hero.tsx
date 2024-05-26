@@ -1,4 +1,4 @@
-import MagicButton from "./MagicButton";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { IoDocumentTextOutline } from "react-icons/io5";
