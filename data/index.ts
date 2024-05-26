@@ -92,7 +92,7 @@ export const projects = [
     des: "Building a web app for an organisation with Next.js, tailwind, next-auth, postgres, and prisma.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/Ayka-India-Trust/akya-main",
+    link: "https://korsera-final.vercel.app/",
   },
   {
     id: 4,

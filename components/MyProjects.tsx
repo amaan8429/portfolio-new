@@ -14,40 +14,39 @@ const MyProjects = () => {
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
-          <a href={item.link} target="_blank" key={item.id}>
-            <div
-              className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center w-[80vw] sm:w-[570px]"
-              key={item.id}
-            >
-              <PinContainer title={item.link} href={item.link}>
-                <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] mb-10 sm:h-[40vh]">
-                  <div
-                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                    style={{ backgroundColor: "#13162D" }}
-                  >
-                    <img src="/bg.png" alt="bgimg" />
-                  </div>
-                  <img
-                    src={item.img}
-                    alt="cover"
-                    className="z-10 absolute bottom-0"
-                  />
-                </div>
-
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                  {item.title}
-                </h1>
-
-                <p
-                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                  style={{
-                    color: "#BEC1DD",
-                    margin: "1vh 0",
-                  }}
+          <div
+            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center w-[80vw] sm:w-[570px]"
+            key={item.id}
+          >
+            <PinContainer title={item.link} href={item.link}>
+              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] mb-10 sm:h-[40vh]">
+                <div
+                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                  style={{ backgroundColor: "#13162D" }}
                 >
-                  {item.des}
-                </p>
+                  <img src="/bg.png" alt="bgimg" />
+                </div>
+                <img
+                  src={item.img}
+                  alt="cover"
+                  className="z-10 absolute bottom-0"
+                />
+              </div>
 
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                {item.title}
+              </h1>
+
+              <p
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                style={{
+                  color: "#BEC1DD",
+                  margin: "1vh 0",
+                }}
+              >
+                {item.des}
+              </p>
+              <a href={item.link} target="_blank" key={item.id}>
                 <div className="flex items-center justify-between mt-7 mb-3">
                   <div className="flex items-center">
                     {item.iconLists.map((icon, index) => (
@@ -70,9 +69,9 @@ const MyProjects = () => {
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </div>
                 </div>
-              </PinContainer>
-            </div>
-          </a>
+              </a>
+            </PinContainer>
+          </div>
         ))}
       </div>
     </div>
