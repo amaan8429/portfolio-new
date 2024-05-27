@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/FloatingNavbar";
 import { navItems } from "@/data";
 import MyProjects from "@/components/MyProjects";
+import TechStack from "@/components/TechStack";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <MyProjects />
+        <TechStack />
       </div>
     </main>
   );
