@@ -57,7 +57,7 @@ const Blogs = () => {
       {showReadMore && (
         <div className="mt-10 text-center">
           <MagicButton
-            title="Read More"
+            title="More Blogs"
             icon={<FaHandPointDown />}
             position="right"
             handleClick={loadMoreBlogs}

@@ -45,7 +45,7 @@ const Hero = () => {
 
           <a href="#about">
             <MagicButton
-              title="Download my Resume"
+              title="Download Resume"
               icon={<IoDocumentTextOutline />}
               position="right"
             />
