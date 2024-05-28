@@ -7,7 +7,7 @@ const TechStack = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   return (
-    <section id="testimonials" className="py-20">
+    <section id="techstack" className="py-20">
       <h1 className="heading">
         Tech I&apos;ve used <span className="text-purple"> to build stuff</span>
       </h1>

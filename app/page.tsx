@@ -4,6 +4,7 @@ import { FloatingNav } from "@/components/FloatingNavbar";
 import { navItems } from "@/data";
 import MyProjects from "@/components/MyProjects";
 import TechStack from "@/components/TechStack";
+import Blogs from "@/components/Blogs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Grid />
         <MyProjects />
         <TechStack />
+        <Blogs />
       </div>
     </main>
   );

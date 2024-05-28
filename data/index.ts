@@ -392,32 +392,68 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const AllBlogs = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Mutability in Rust",
+    desc: "Exploring Mutability in Rust and how it is diffirent - Rust Series Part 5",
+    url: "https://amaan8429.hashnode.dev/exploring-mutability-in-rust-rust-series-part-5",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Memory Management in Rust",
+    desc: "A Beginner's Guide to Memory Management in Rust - Rust Series Part 4",
+    url: "https://amaan8429.hashnode.dev/a-beginners-guide-to-memory-management-in-rust-rust-series-part-4",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "The Simple stuff",
+    desc: "The Simple stuff like variables and loops in rust- Rust Series Part 3",
+    url: "https://amaan8429.hashnode.dev/the-simple-stuff-rust-series-part-3",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Setting up rust locally",
+    desc: "How to set up rust locally on Ubuntu - Rust Series Part 2",
+    url: "https://amaan8429.hashnode.dev/setting-up-rust-locally-rust-series-part-2",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "Why Rust?",
+    desc: "Why Rust and Why Not Node.js or Python? - Rust Series Part 1",
+    url: "https://amaan8429.hashnode.dev/why-rust-and-why-not-nodejs-or-python-rust-series-part-1",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 6,
+    title: "Fetch API vs Axios",
+    desc: "Explained the diffirence between native fetch API and Axios",
+    url: "https://amaan8429.hashnode.dev/fetch-api-vs-axios",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 7,
+    title: "OSI Model",
+    desc: "A beginner's guide to OSI Model and how it works to make the internet work.",
+    url: "https://amaan8429.hashnode.dev/osi-model",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 8,
+    title: "Understanding CORS Errors",
+    desc: "Understanding CORS Errors and How to Address Them ",
+    url: "https://amaan8429.hashnode.dev/understanding-cors-errors-and-how-to-address-them",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
