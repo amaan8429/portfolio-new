@@ -5,6 +5,8 @@ import { navItems } from "@/data";
 import MyProjects from "@/components/MyProjects";
 import TechStack from "@/components/TechStack";
 import Blogs from "@/components/Blogs";
+import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <MyProjects />
         <TechStack />
         <Blogs />
+        {/* <Approach /> */}
+        <Footer />
       </div>
     </main>
   );
