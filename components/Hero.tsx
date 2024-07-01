@@ -43,7 +43,10 @@ const Hero = () => {
             Hi! I&apos;m Amaan, a Next.js Developer based in India.
           </p>
 
-          <a href="#about">
+          <a
+            href="https://drive.google.com/file/d/1ETTwomyAnnxRrkOWAk4gQ0wgo1LsWXdv/view"
+            target="_blank"
+          >
             <MagicButton
               title="Download Resume"
               icon={<IoDocumentTextOutline />}
